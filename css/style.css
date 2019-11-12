@@ -1,0 +1,441 @@
+/*
+    Theme Name: Resi
+    Theme URL: https://bootstrapmade.com/resi-free-bootstrap-html-template/
+    Author: BootstrapMade
+    Author URL: https://bootstrapmade.com
+*/
+/* ==== Google font ==== */
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:300,400,600,700');
+/* === fontawesome === */
+@import url('font-awesome.css');
+/* ==== overwrite bootstrap standard ==== */
+@import url('overwrite.css');
+@import url('animate.css');
+
+
+
+body {
+
+}
+
+
+/*===========================
+  slider
+============================ */
+.slider {
+	position: relative;	
+	margin-top:-20px;
+}
+
+.slider img {
+    width: 100%;
+}
+
+#carousel-slider {
+  position: relative;
+}
+
+#carousel-slider .carousel-indicators {
+  bottom: -40px;
+}
+
+#carousel-slider .carousel-indicators li {
+  border: 1px solid #ffbd20;
+}
+
+#carousel-slider a i {
+	border-radius:50%;
+	font-size: 30px;
+	height: 50px;
+	padding: 10px;
+	position: absolute;
+	top: 50%;
+	width: 50px;
+	color:#6d9c91;
+	background:#6d9c91;
+	color:#fff;
+}
+
+#carousel-slider a i:hover {
+	background:#6d9c91;
+	color:#fff;
+	border: 1px solid #6d9c91;
+}
+
+#carousel-slider 
+.carousel-control {
+	width:inherit;
+}
+
+#carousel-slider .carousel-control.left i {
+	left:50px;
+	top: calc(50% - 50px);
+}
+
+#carousel-slider .carousel-control.right i {
+	right: 50px;
+	top: calc(50% - 50px);
+}
+
+.carousel-caption {
+	position: absolute;
+	right: 15%;
+	top: calc(50% - 150px);
+	font-size:40px;
+	left: 15%;
+	z-index: 10;
+	padding-bottom: 0px;
+	color: #fff;
+	text-align: center;
+}
+
+.carousel-caption  h2 {
+	font-size:60px;
+	color: #fff;
+}
+
+.carousel-caption  h2 span {
+	font-size:60px;
+	color: #fff;
+}
+
+.carousel-caption  p {
+	font-size:30px;
+	margin-top:30px;
+	margin-bottom:20px;
+	color:#fff;
+	padding:10px;
+	background:#6d9c91;
+}
+
+@media (max-width: 767px) {
+    .carousel-caption  {
+      font-size: 18px;
+    }
+    .carousel-caption h2, .carousel-caption  h2 span, .carousel-caption  p {
+    	font-size:18px;
+    }
+}
+
+.carousel-inner .form-inline .form-group .btn-livedemo {
+	padding:20px 60px;
+	font-size:20px;
+	background:#6d9c91;
+	color:#fff;
+	border-radius:0;
+	border-color:#fff;
+	text-transform:uppercase;
+}
+
+.carousel-inner .form-inline .form-group .btn-livedemo:hover {
+	color:#fff;
+	opacity: 0.8;
+	-webkit-transition: color 300ms, background-color 300ms;
+  -moz-transition: color 300ms, background-color 300ms;
+  -o-transition:  color 300ms, background-color 300ms;
+  transition:  color 300ms, background-color 300ms;
+}
+
+.carousel-inner .form-inline .form-group .btn-getnow {
+	padding:20px 60px;
+	font-size:20px;
+	background:#fff;
+	color:#272727;
+	border-radius:0;
+	text-transform:uppercase;
+}
+
+.carousel-inner .form-inline .form-group .btn-getnow:hover {
+	color:#fff;
+	border-color:#fff;
+	background:#6d9c91;
+	-webkit-transition: color 300ms, background-color 300ms;
+  -moz-transition: color 300ms, background-color 300ms;
+  -o-transition:  color 300ms, background-color 300ms;
+  transition:  color 300ms, background-color 300ms;
+}
+
+.form-inline {
+	margin-top:50px;	
+}
+
+.content {
+	background-color:#f9f9f9;
+	padding:50px;
+	text-align:center;
+	
+}
+.content  span {
+	color:#6D9C91;
+	text-transform:uppercase;
+
+}
+.content p {
+	margin-top:50px;
+	margin-bottom:30px;
+	color:#090909;
+}
+.breadcrumb  {
+	padding:30px;
+	
+}
+.breadcrumb h4 {
+	color:#6D9C91;
+	text-transform:uppercase;
+	text-align:center;
+	font-size:20px;
+}
+.breadcrumbs  {
+	margin-top:30px;
+	margin-bottom:30px;
+	padding:30px;	
+}
+.breadcrumbs h4 {
+	color:#6D9C91;
+	text-transform:uppercase;
+	text-align:center;
+	font-size:20px;
+}
+
+.contents {
+	margin-top:10px;
+	
+}
+.contents p {
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.bg {
+	margin-top:10px;
+
+}
+.recent button.btn-primarys h3 {
+	padding:10px;
+	font-size:30px;	
+	text-decoration:0;
+	color:#fff;	
+}
+
+.align-center {
+	text-align:center;
+	background-color:#fff;
+	color:#000;
+	padding:60px;
+	margin-top:30px;
+	margin-bottom:30px;	
+}
+.align-center  p {
+	margin-top:10px;
+	margin-bottom:30px;
+}
+.dropdown-item:hover{
+	background-color: rgb(80,185,300);
+	
+}
+
+.align-center:hover {
+	border-bottom: 30px solid transparent;
+	border-color:#6D9C91;
+	margin-top:-5px;
+	-webkit-box-shadow: 1px 2px 2px 4px rgba(204,204,204,1);
+-moz-box-shadow: 1px 2px 2px 4px rgba(204,204,204,1);
+box-shadow: 1px 2px 2px 4px rgba(204,204,204,1);
+}
+.boxs {
+	margin-top:30px;
+
+}
+.icon {
+
+	margin-top:30px;
+	margin-bottom:30px;
+	color:#000;
+}
+
+.ficon i {
+	color:#6D9C91;
+}
+/* --- Feature --- */
+.feature {
+	background-color:#f6f6f6;
+}
+.feature p {
+	margin-top:30px;
+	margin-bottom:30px;
+	padding:30px;
+}
+
+/* --- Portfolio --- */
+.portfolios {	
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:30px;
+	background-color:#f6f6f6;
+	padding:90px 0 90px 0;
+}
+
+
+.portfolio {
+	margin-top:5px;
+}
+
+.list-group {
+  padding-left: 0;
+  margin-top:50px;
+ 
+}
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  background-color: #eee;
+  border: 1px solid #000;
+}
+.list-group-item.active {
+	
+	background-color:#eee;
+	border-color:#eee;
+	color:#6D9C91;
+}
+.list-group-item.active:hover {
+	background-color:#6D9C91;
+	border-color:#6D9C91;
+}
+.list-group-item.active p.list-group-item-text {
+	color:#000;
+}
+.image {
+	margin-top:80px;
+}
+ @media (min-width:240px) and (max-width: 800px)
+ {
+ 	.nivoSlider{
+ 		height: 700px;
+ 	}
+ 	div.slider{
+ 		height: 700px;
+ 	}
+
+
+
+
+    .galeria{
+        position: relative;
+        left: -20%;
+        width: 200px;
+        top: -30px;
+        border: 4px solid black;
+        box-shadow: 1px 1px 7px black;
+       
+      }
+    
+      .galeria:hover {
+          position: relative;
+          border: 4px solid white;
+          box-shadow: 1px 1px 4px black;
+          transform: scale(1.4);
+          } 
+      figure.galeria{
+          width: 165%;
+          position: relative;
+          border: 4px solid black;
+          box-shadow: 0px 0px 7px white;
+         
+          
+      }
+      figure.galeria:hover figcaption {
+          opacity:1;
+      }
+      .galeria img{
+        position:relative;
+        width:  100%;
+        height: 100%;
+      
+      }
+          .galeria2{/*tamanho da borda preta e da imagem*/
+            position: relative;          
+            height: 130px;
+            width: 100%;
+            top: -50px;
+            border: 4px solid black;
+            box-shadow: 1px 1px 7px black;
+           
+    }
+    figure.galeria2 figcaption {
+        opacity: 1;
+        left: 3;
+        position: absolute;
+        top: 0px;
+        background-color: rgba(0, 0, 0, 0.144);
+        color:white;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        font-size: 20px;
+        transition: opacity 1s;
+      
+    }
+     
+    .galeria2 img{/*tamanho da img dentro da borda preta*/
+          width:  70px;
+          height: 100%;
+    
+    }
+    .texto{
+        
+        text-align: justify;
+        font-size: 13px;
+        text-decoration: none;
+        font-family: Afterglow-Regular;
+        text-shadow: 0 0 25px rgb(0, 0, 0);
+    }
+    .contato{
+  
+        background: url(images/jessicaFundo.png);
+        background-repeat:no-repeat;
+        background-position:center;
+        background-size: cover;
+        background-attachment: fixed;
+        color:white;
+        font-family:Monotype Corsiva;
+        font-size: 18px;
+        padding-top: 5px;
+    
+    }
+
+
+    .galeria{
+        position: relative;
+        left: -20%;
+        height: 110px;
+        width: 180%;
+        top: -30px;
+        border: 4px solid black;
+        box-shadow: 1px 1px 7px black;
+       
+      }
+    
+      .galeria:hover {
+          position: relative;
+          border: 4px solid white;
+          box-shadow: 1px 1px 4px black;
+          transform: scale(1.4);
+          } 
+      figure.galeria{
+          left:-30%;
+          position: relative;
+          border: 4px solid black;
+          box-shadow: 0px 0px 7px white;
+          width: 100%;
+          height: 150px;
+          
+      }
+      figure.galeria:hover figcaption {
+          opacity:1;
+      }
+      .galeria img{
+        position:relative;
+        width:  100%;
+        height: 100%;
+ }
