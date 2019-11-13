@@ -1,0 +1,192 @@
+
+body{
+  text-decoration: none;
+  margin: 0;
+ 
+}
+.topo{
+
+min-height: 100px;
+background-color: black;
+color: #fff;
+    
+}
+.fundo-nav{
+  height: 100px;
+}
+
+.btn-topo{
+    width:50px;
+    height: 50px; 
+    display: inline-block;
+    background: rgb(0, 0, 0);
+    color: white;
+    text-decoration: none;
+    position: fixed;
+    right: 20px;
+    bottom: 25px;
+    border-radius: 100%;
+    font-size: 30px;
+    text-align: center; 
+    display: none;
+}
+.btn-topo:hover{
+    color: white;
+    transform: scale(1.2);
+}
+
+nav.black{
+  background-color: rgba(0, 0, 0, 0.404);
+  top: 0;
+  transition: .5s;
+  color: white;
+  padding: 10px 50px;
+}
+
+nav.logo{
+  float: left;
+
+}
+
+.logo img{
+  height: 80px;
+  transition: .5s;
+
+}
+nav.black .logo img{
+  height:60px ;
+ 
+}
+
+
+
+.banner{
+  margin-top: 100px;
+}
+
+
+ .galeria{
+      object-position: center;
+      height: 500px;
+      width: 200px;
+      border: 4px solid black;
+      box-shadow: 1px 1px 7px black;
+     
+    }
+
+    .categoria{
+      color:black  ;
+      border: none;
+    }
+    .ativo{
+      color: rgb(255, 255, 255)  ;
+      background-color: rgb(0, 119, 255);
+      border: none;
+    }
+
+
+
+    .categoria:hover{
+      background-color: rgb(0, 174, 255);
+      text-decoration: none;
+      color: white;
+
+    }
+    .nav-iten img{
+      margin-left: 200px;
+      padding-right: 50px;
+    }
+  
+    .galeria:hover {
+        border: 4px solid white;
+        box-shadow: 1px 1px 4px black;
+        transform: scale(1.2);
+ }
+ .topo{
+   margin-top: 60px;
+
+ }
+
+.categ{
+        opacity: 0;
+        height: 50px;
+
+      }
+.posição{
+  top: 20px;
+
+
+}
+.whats img{
+  height:80px;
+  position:fixed; 
+  bottom: 90px; 
+  left: 25px; 
+  z-index:100;
+
+}
+.whats img:hover{
+  transform: scale(1.2);
+
+}
+
+  @media (min-width:240px) and (max-width: 800px)
+    {
+    .banner img{
+      position: center;
+      align-items: center;
+    }
+    
+
+      .whats img{
+        height: 50px;
+
+}
+
+
+    .whats img:hover{
+      transform: scale(1.2);
+
+}
+
+      .categ{
+        position: top;
+        opacity: 1;
+        height: 100px;
+      width: 300px;
+  
+      }
+      .fundo-cabeçalho{
+        background-color: rgba(0, 0, 0, 0.404);
+        ;
+      }
+
+       .galeria{
+      
+       opacity: 0;
+      
+      height: 10px;
+      width: 10px;
+      border: 4px solid black;
+      box-shadow: 1px 1px 7px black;
+     
+    }
+    .galeria img{
+      opacity: 0;
+  
+
+  }
+    .galeria:hover {
+        border: 4px solid white;
+        box-shadow: 1px 1px 4px black;
+        transform: scale(1.4);
+        } 
+
+    .espaço-celular{
+      height: 200px;
+      width: 10px;
+
+    }
+
+
+  }
